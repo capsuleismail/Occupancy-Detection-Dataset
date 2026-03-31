@@ -19,22 +19,6 @@ It combines **exploratory data analysis (EDA)**, **feature engineering**, and **
 ## Dataset.
 The dataset contains environmental sensor readings used for **binary classification (occupied vs not occupied)**.
 
-- Which features are most predictive of occupancy?
-- Why is light such a dominant feature?
-- Curious Insight.
-- How a Cyclical Encoding can improve our model accuracy?
-- How would you check for multicollinearity (VIF and Correlation Plot)?
-- Is the dataset balanced?
-- Which evaluation metrics are most appropriate?
-- How the values are distributed?
-- What preprocessing step are needed?
-- What models are going to execute and why?
-- Should date/time be used as a feature?
-- What model perform best on this dataset?
-- What feature engineering could improve results?
-- What real-world issues could affect model reliability?
-
-
 **Features:**
 - Temperature  
 - Humidity  
@@ -50,9 +34,23 @@ Ground truth occupancy was obtained from **time-stamped images taken every minut
 
 During the following project I had a serious of question answered and explained on my notebook, such as:
 
+- Which features are most predictive of occupancy?
+- Why is light such a dominant feature?
+- Curious Insight.
+- How a Cyclical Encoding can improve our model accuracy?
+- How would you check for multicollinearity (VIF and Correlation Plot)?
+- Is the dataset balanced?
+- Which evaluation metrics are most appropriate?
+- How the values are distributed?
+- What preprocessing step are needed?
+- What models are going to execute and why?
+- Should date/time be used as a feature?
+- What model perform best on this dataset?
+- What feature engineering could improve results?
+- What real-world issues could affect model reliability?
 
 ### Dataset not Balanced
-The dataset is relatively imbalanced, Time-series split has been applied. 
+The dataset is relatively imbalanced, with a 76,90% over 23,10% proportion.
 
 ### Multicollinearity
 Correlation analysis and VIF revealed high correlation between some variables (e.g. humidity-related features), indicating multicollinearity.
